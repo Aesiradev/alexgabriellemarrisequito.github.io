@@ -16,6 +16,11 @@ const skills = [
   { name: "Browser Ext", icon: "https://api.iconify.design/mdi:puzzle.svg?color=%231a73e8&width=64&height=64" },
   { name: "React Native", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+  { name: "Tailwind",   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+  { name: "Foursquare", icon: "https://api.iconify.design/simple-icons:foursquare.svg?color=%23F94877&width=64&height=64" },
+  { name: "Claude API", icon: "https://api.iconify.design/simple-icons:anthropic.svg?color=%23CC785C&width=64&height=64" },
+  { name: "Cybersecurity", icon: "https://api.iconify.design/mdi:shield-lock.svg?color=%2300e5ff&width=64&height=64" },
 ];
 
 const ITEM_WIDTH = 138;

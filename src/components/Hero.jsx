@@ -4,10 +4,10 @@ function Hero() {
       <div className="hero-tint" />
 
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center justify-content-center">
 
-          <div className="col-md-4 text-center">
-            <div className="profile-circle">
+          <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
+            <div className="profile-circle mx-auto">
               <img
                 src={`${import.meta.env.BASE_URL}assets/images/porfoliouser.jpg`}
                 alt="Alex Sequito"
@@ -16,7 +16,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="col-md-8 text-center text-md-start hero-text">
+          <div className="col-12 col-md-8 text-center text-md-start hero-text">
             <small className="intro-text">HI, MY NAME IS</small>
 
             <h1 className="hero-name">
@@ -31,7 +31,7 @@ function Hero() {
             </p>
 
             <a
-              href={`${import.meta.env.BASE_URL}assets/Resume.pdf`}              
+              href={`${import.meta.env.BASE_URL}assets/Resume.pdf`}
               download="SequitoDev_Resume.pdf"
               className="btn btn-resume mt-3"
             >
